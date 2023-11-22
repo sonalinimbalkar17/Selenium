@@ -18,6 +18,7 @@ public class Alert {
         //test case 1
         driver.findElement(By.cssSelector("#content > div > ul > li:nth-child(1)> button")).click();
         driver.switchTo().alert().accept();
+        
         if(result.getText().equals("You successfully clicked an alert")) {
         	System.out.println("testcase pass");//testcase pass
         }

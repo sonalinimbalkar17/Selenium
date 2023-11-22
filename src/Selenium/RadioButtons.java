@@ -3,7 +3,7 @@ package Selenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class webElementsMethod3 {
+public class RadioButtons {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

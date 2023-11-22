@@ -17,6 +17,7 @@ public class DropDown {
         driver.get("http://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
         WebElement ele = driver.findElement(By.cssSelector("#dropdowm-menu-1"));
 
+        //select
          Select sel=new Select(ele)	;
          
          //select by index

@@ -31,6 +31,8 @@ public class webDriverMethods {
         
         //get()  ---launch a new browser and open the URL in browser
           driver.get("https://www.saucedemo.com/");
+         
+        //findElement()
           driver.findElement(By.id("user-name")).sendKeys("standard_user");
           driver.findElement(By.id("password")).sendKeys("secret_sauce");
           driver.findElement(By.id("login-button")).click();
